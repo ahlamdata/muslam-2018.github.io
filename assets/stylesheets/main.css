@@ -1,0 +1,72 @@
+body,html,h1,h2,p{
+	margin: 0;
+	padding: 0;
+}
+nav{text-align: right;
+	position: fixed;
+	background: green;
+}
+.beginning{
+	height: 100vh;
+	background: url(../images/grape.png) no-repeat 900px 200px,url(../images/pretty.jpg) no-repeat 00px 00px #e6c4ac;
+	background-size: contain;
+	
+	
+}
+.beginning h1{
+	font-family: Rockwell;
+	font-size: 100px;
+	text-align: right;
+	padding-right: 40px;
+    padding-top: 10px;
+    text-transform: capitalize;
+    text-shadow: 2px 5px 3px green;
+}
+.beginning p{
+	font-family: "Bell MT";
+	font-size: 20px;
+	text-align: right;
+	padding-right: 90px;
+	text-transform: capitalize;
+	
+
+}
+.middle{
+	height: 100vh;
+	background: url(../images/butterfly.png) no-repeat 200px -200px #0b92a2;
+
+} 
+.middle h1{
+	font-family: 'Abel', sans-serif;
+	font-size: 100px;
+	text-align: center;
+}
+.middle p{
+	font-family: Courier;
+	font-size: 40px;
+	color: white;
+	width: 80%;
+    margin: 0 auto;
+
+}
+.end{
+	height: 100vh;
+	background: #e79fe7;
+
+}
+.code{
+	font-family: Courier;
+	font-size: 20px;
+	display: inline-block;
+	padding: 20px;
+	width: 20%;
+
+}
+.end-1{
+	text-align: center;
+	padding: 200px;
+}
+.primary-footer {
+    background: #ef1368;
+    height: 60px;
+}
